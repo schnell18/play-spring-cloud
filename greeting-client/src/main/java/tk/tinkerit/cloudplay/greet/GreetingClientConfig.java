@@ -9,10 +9,10 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class GreetingClientConfig {
 
-	@Bean
-	@LoadBalanced
-	public RestTemplate restTemplate() {
-		return new RestTemplateBuilder().build();
-	}
+	// @Bean
+	// @LoadBalanced
+	// public RestTemplate restTemplate() {
+	// 	return new RestTemplateBuilder().build();
+	// }
 
 }
