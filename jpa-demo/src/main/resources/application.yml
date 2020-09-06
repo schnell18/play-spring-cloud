@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: jpa-demo
+  profiles:
+    active: development
+---
+spring:
+  profiles: development
+  jpa:
+    show_sql: true
+    database: H2
+    generate-ddl: true
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_ON_EXIT=FALSE
+  h2:
+    console: enabled
+---
+spring:
+  profiles: test
+  jpa:
+    show_sql: false
+    database: MYSQL
+    generate-ddl: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: user1
+    password: pass1

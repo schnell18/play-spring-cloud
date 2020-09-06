@@ -15,4 +15,5 @@ Practise some basic programming topics like:
 | eureka-server    | Netflix eureka registry  |
 | greeting-client  | simple greeting gateway  |
 | greeting-service | simple greeting service  |
+| jpa-demo         | simple jpa demo          |
 
