@@ -1,0 +1,35 @@
+dyno:
+    rightUseSources:
+        - code: abc
+          value: 100
+          serviceDesc: source 1
+        - code: abc
+          value: 101
+          serviceDesc: source 2
+
+    contractConfig:
+        importFileMaxSize: 10240
+        exportAcCodeMsmTpl: abc.ftl
+
+    commonConfig:
+        cardParentCategoryId: 21
+        spParentCategoryId: 22
+        cardScheduleTaskNoticeTpl: notice.ftl
+
+    cardSales:
+        pageSize: 1000
+        csTeams:
+            - entranceId: 34234
+              entranceName: 高血压
+            - entranceId: 34233
+              entranceName: 糖尿病
+        financeCategories:
+            - code: B0001
+              name: 大客户
+            - code: B0002
+              name: 中小企业
+
+    rightConfig:
+        bulkExtendMaxNum: 500
+        rightWriteSize: 1000
+        rightWriteUpper: 10000

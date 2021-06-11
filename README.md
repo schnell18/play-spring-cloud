@@ -16,4 +16,5 @@ Practise some basic programming topics like:
 | greeting-client  | simple greeting gateway  |
 | greeting-service | simple greeting service  |
 | jpa-demo         | simple jpa demo          |
+| dyno-config      | dynamic config w/ nacos  |
 
